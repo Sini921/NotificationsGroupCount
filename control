@@ -6,6 +6,6 @@ Description: 锁屏界面的通知分组后以角标显示每组通知数量。�
 icon: https://sini921.github.io/repo/sileodepiction/icon/notificationsgroupcount.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/notificationsgroupcount/js.json
 Maintainer: 0xkuj
-Author: 0xkuj
+Author: 0xkuj & Sini921
 Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
