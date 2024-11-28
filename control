@@ -1,9 +1,11 @@
-Package: com.0xkuj.notificationsgroupcount
-Name: NotificationsGroupCount
-Version: 1.0.6
+Package: com.sini.notificationsgroupcount
+Name: NotificationsGroupCount【rootless】
+Version: 1.0.6-1
 Architecture: iphoneos-arm
-Description: Count those notifications inside Apple notifications grouping!
+Description: 锁屏界面的通知分组后以角标显示每组通知数量。根据开源代码直接编译的中文版
+icon: https://sini921.github.io/repo/sileodepiction/icon/notificationsgroupcount.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/notificationsgroupcount/js.json
 Maintainer: 0xkuj
 Author: 0xkuj
-Section: Tweaks
+Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
