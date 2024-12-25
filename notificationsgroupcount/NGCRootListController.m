@@ -33,7 +33,7 @@
 		underLabel = [[UILabel alloc] initWithFrame:botFrame];
 		[underLabel setNumberOfLines:4];
 		underLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
-		[underLabel setText:@"\nCount Those Notifications Groups!\n\n Created by 0xkuj"];
+		[underLabel setText:@"\nCount Those Notifications Groups!\n\n Created by 0xkuj @思念变成海"];
 		[underLabel setBackgroundColor:[UIColor clearColor]];
 		underLabel.textColor = [UIColor grayColor];
 		underLabel.textAlignment = NSTextAlignmentCenter;
@@ -196,6 +196,12 @@
 -(void)donationLink {
 	UIApplication *application = [UIApplication sharedApplication];
 	NSURL *URL = [NSURL URLWithString:@"https://www.paypal.me/0xkuj"];
+	[application openURL:URL options:@{} completionHandler:^(BOOL success) {return;}];
+}
+
+-(void)jbrepo {
+	UIApplication *application = [UIApplication sharedApplication];
+	NSURL *URL = [NSURL URLWithString:@"https://sini921.github.io"];
 	[application openURL:URL options:@{} completionHandler:^(BOOL success) {return;}];
 }
 @end

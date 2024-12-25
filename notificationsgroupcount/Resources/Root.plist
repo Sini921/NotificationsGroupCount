@@ -47,32 +47,32 @@
 			<string>PSLinkCell</string>
 			<key>cellClass</key>
 			<string>NGCColorPickerCell</string>
+			<key>defaults</key>
+			<string>com.0xkuj.notificationsgroupcountprefs</string>
 			<key>fallback</key>
 			<string>FFFFFF</string>
 			<key>key</key>
 			<string>badgeBackgroundColor</string>
-			<key>supportAlpha</key>
-			<true/>
-			<key>defaults</key>
-			<string>com.0xkuj.notificationsgroupcountprefs</string>
 			<key>label</key>
 			<string>Badge Background Color</string>
+			<key>supportAlpha</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>cellClass</key>
 			<string>NGCColorPickerCell</string>
+			<key>defaults</key>
+			<string>com.0xkuj.notificationsgroupcountprefs</string>
 			<key>fallback</key>
 			<string>FFFFFF</string>
 			<key>key</key>
 			<string>badgeTextColor</string>
-			<key>supportAlpha</key>
-			<true/>
-			<key>defaults</key>
-			<string>com.0xkuj.notificationsgroupcountprefs</string>
 			<key>label</key>
 			<string>Badge Text Color</string>
+			<key>supportAlpha</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -110,29 +110,29 @@
 			<key>cell</key>
 			<string>PSSliderCell</string>
 			<key>default</key>
-			<real>0.8</real>
-			<key>min</key>
-			<real>0.0</real>
-			<key>max</key>
-			<real>1.0</real>
-			<key>showValue</key>
-			<true/>
-			<key>isSegmented</key>
-			<true/>
-			<key>segmentCount</key>
-			<integer>10</integer>
+			<real>0.80000000000000004</real>
 			<key>defaults</key>
 			<string>com.0xkuj.notificationsgroupcountprefs</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>key</key>
 			<string>shadowOpacity</string>
+			<key>max</key>
+			<real>1</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>segmentCount</key>
+			<integer>10</integer>
+			<key>showValue</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>MISCELLANEOUS</string>
 			<key>footerText</key>
 			<string>Restore to default settings - will restore your tweak preferences back to first-time configuration</string>
+			<key>label</key>
+			<string>MISCELLANEOUS</string>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -181,10 +181,20 @@
 			<string>Follow me on Twitter</string>
 		</dict>
 		<dict>
+			<key>action</key>
+			<string>jbrepo</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>jbrepo.png</string>
+			<key>label</key>
+			<string>jbrepo</string>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Made by: 0xkuj | v1.0.5</string>
+			<string>Made by: 0xkuj | @思念变成海编译 v1.0.6</string>
 		</dict>
 	</array>
 	<key>title</key>
